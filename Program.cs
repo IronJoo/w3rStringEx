@@ -2,13 +2,14 @@
 
 namespace w3rStringEx //{}
 {
-    class Exercise1
+    class Exercise2
     {
         public static void Main(string[] args)
         {
             Console.Write("Input text: ");
             string input = Console.ReadLine();
-            Console.WriteLine($"The string you entered is: {input}");
+            int length = input.Length;
+            Console.WriteLine("Length of the string is: " + length);
             Console.ReadLine();
         }
     }
